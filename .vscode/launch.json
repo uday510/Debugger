@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "name": "Launch Program", 
+      "program": "${workspaceFolder}/app.js",  // Debugging starting program
+      "request": "launch",
+      "restart": true,
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node",
+      "runtimeExecutable": "nodemon",
+      "console": "integratedTerminal"
+    }
+  ]
+}
